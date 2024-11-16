@@ -1,0 +1,36 @@
+{
+  "name": "@lijinhai255/ui",
+  "version": "0.1.0",
+  "description": "ui组件库",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "lijinhai255 <976041476@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "rollup": "^4.27.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

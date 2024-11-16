@@ -1,0 +1,32 @@
+{
+  "name": "@lijinhai255/hooks",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bun build.ts",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [],
+  "author": "lijinhai255 <976041476@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/bun": "latest",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "add": "^2.0.6",
+    "jsdom": "^25.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

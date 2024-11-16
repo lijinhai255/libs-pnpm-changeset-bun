@@ -1,0 +1,20 @@
+{
+  "name": "libs-pnpm-changeset-bun",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bun run --watch",
+    "build": "bun build ./packages/*",
+    "test": "bun test",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "keywords": [],
+  "author": "lijinhai255 <976041476@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9"
+  }
+}
