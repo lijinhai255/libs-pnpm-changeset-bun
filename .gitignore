@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+.pnpm/
+.pnp.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+.vscode-test/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Package manager lock files (if using multiple managers)
+package-lock.json
+yarn.lock
+
+# Bun cache
+bun.lockb
+
+# Storybook files
+storybook-static/
+
+# Changeset files (optional)
+.changeset/*.md
