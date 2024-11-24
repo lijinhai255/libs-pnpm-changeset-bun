@@ -1,0 +1,28 @@
+{
+  "name": "inspur-cli",
+  "version": "0.1.0",
+  "description": "公司内部的Quicktype CLI工具，用于生成类型定义",
+  "bin": {
+    "inspur-cli": "./bin/cli.js"
+  },
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@darkobits/lolcatjs": "^3.1.3",
+    "chalk": "^4.1.0",
+    "commander": "^11.0.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^8.2.6",
+    "node-fetch": "^2.7.0",
+    "ora": "^4.0.4",
+    "quicktype-core": "^23.0.78",
+    "shelljs": "^0.8.5"
+  },
+  "author": "lijinhai255 <976041476@qq.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
